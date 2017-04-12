@@ -1,0 +1,709 @@
+[
+  "log_version",
+  "log_type",
+  {
+    "expr": "$.base.id.client_id",
+    "type": "path",
+    "name": "base.id.client_id"
+  },
+  {
+    "expr": "$.base.id.is_client_id_day_new",
+    "type": "path",
+    "name": "base.id.is_client_id_day_new"
+  },
+  {
+    "expr": "$.base.id.is_client_id_hour_new",
+    "type": "path",
+    "name": "base.id.is_client_id_hour_new"
+  },
+  {
+    "expr": "$.base.id.user_id",
+    "type": "path",
+    "name": "base.id.user_id"
+  },
+  {
+    "expr": "$.base.id.is_user_id_day_new",
+    "type": "path",
+    "name": "base.id.is_user_id_day_new"
+  },
+  {
+    "expr": "$.base.id.is_user_id_hour_new",
+    "type": "path",
+    "name": "base.id.is_user_id_hour_new"
+  },
+  {
+    "expr": "$.base.id.member_hash_id",
+    "type": "path",
+    "name": "base.id.member_hash_id"
+  },
+  {
+    "expr": "$.base.id.is_member_hash_id_day_new",
+    "type": "path",
+    "name": "base.id.is_member_hash_id_day_new"
+  },
+  {
+    "expr": "$.base.id.is_member_hash_id_hour_new",
+    "type": "path",
+    "name": "base.id.is_member_hash_id_hour_new"
+  },
+  {
+    "expr": "$.base.id.device_id",
+    "type": "path",
+    "name": "base.id.device_id"
+  },
+  {
+    "expr": "$.base.id.is_device_id_day_new",
+    "type": "path",
+    "name": "base.id.is_device_id_day_new"
+  },
+  {
+    "expr": "$.base.id.is_device_id_hour_new",
+    "type": "path",
+    "name": "base.id.is_device_id_hour_new"
+  },
+  {
+    "expr": "$.base.id.is_user_logged_in",
+    "type": "path",
+    "name": "base.id.is_user_logged_in"
+  },
+  {
+    "expr": "$.base.id.user_type",
+    "type": "path",
+    "name": "base.id.user_type"
+  },
+  {
+    "expr": "$.base.client.product",
+    "type": "path",
+    "name": "base.client.product"
+  },
+  {
+    "expr": "$.base.client.platform",
+    "type": "path",
+    "name": "base.client.platform"
+  },
+  {
+    "expr": "$.base.client.source",
+    "type": "path",
+    "name": "base.client.source"
+  },
+  {
+    "expr": "$.base.client.version_name",
+    "type": "path",
+    "name": "base.client.version_name"
+  },
+  {
+    "expr": "$.base.client.version_code",
+    "type": "path",
+    "name": "base.client.version_code"
+  },
+  {
+    "expr": "$.base.client.service",
+    "type": "path",
+    "name": "base.client.service"
+  },
+  {
+    "expr": "$.base.client.user_agent",
+    "type": "path",
+    "name": "base.client.user_agent"
+  },
+  {
+    "expr": "$.base.client.normalized_user_agent.agent_family",
+    "type": "path",
+    "name": "base.client.normalized_user_agent.agent_family"
+  },
+  {
+    "expr": "$.base.client.normalized_user_agent.os_family",
+    "type": "path",
+    "name": "base.client.normalized_user_agent.os_family"
+  },
+  {
+    "expr": "$.base.client.normalized_user_agent.device_family",
+    "type": "path",
+    "name": "base.client.normalized_user_agent.device_family"
+  },
+  {
+    "expr": "$.base.client.normalized_user_agent.os_major",
+    "type": "path",
+    "name": "base.client.normalized_user_agent.os_major"
+  },
+  {
+    "expr": "$.base.client.first_source",
+    "type": "path",
+    "name": "base.client.first_source"
+  },
+  {
+    "expr": "$.base.client.update_source",
+    "type": "path",
+    "name": "base.client.update_source"
+  },
+  {
+    "expr": "$.base.client.ad_source.type",
+    "type": "path",
+    "name": "base.client.ad_source.type"
+  },
+  {
+    "expr": "$.base.client.ad_source.source",
+    "type": "path",
+    "name": "base.client.ad_source.source"
+  },
+  {
+    "expr": "$.base.client.ad_source.pub_id",
+    "type": "path",
+    "name": "base.client.ad_source.pub_id"
+  },
+  {
+    "expr": "$.base.client.ad_source.sub_pub_id",
+    "type": "path",
+    "name": "base.client.ad_source.sub_pub_id"
+  },
+  {
+    "expr": "$.base.client.is_app_view",
+    "type": "path",
+    "name": "base.client.is_app_view"
+  },
+  {
+    "expr": "$.base.client.charge_type",
+    "type": "path",
+    "name": "base.client.charge_type"
+  },
+  {
+    "expr": "$.base.time.server_timestamp",
+    "type": "path",
+    "name": "base.time.server_timestamp"
+  },
+  {
+    "expr": "$.base.time.date",
+    "type": "path",
+    "name": "base.time.date"
+  },
+  {
+    "expr": "$.base.time.hour",
+    "type": "path",
+    "name": "base.time.hour"
+  },
+  {
+    "expr": "$.base.network.type",
+    "type": "path",
+    "name": "base.network.type"
+  },
+  {
+    "expr": "$.base.network.mobile_network_type",
+    "type": "path",
+    "name": "base.network.mobile_network_type"
+  },
+  {
+    "expr": "$.base.network.isp",
+    "type": "path",
+    "name": "base.network.isp"
+  },
+  {
+    "expr": "$.base.network.country",
+    "type": "path",
+    "name": "base.network.country"
+  },
+  {
+    "expr": "$.base.network.province",
+    "type": "path",
+    "name": "base.network.province"
+  },
+  {
+    "expr": "$.base.network.city",
+    "type": "path",
+    "name": "base.network.city"
+  },
+  {
+    "expr": "$.base.launch.source",
+    "type": "path",
+    "name": "base.launch.source"
+  },
+  {
+    "expr": "$.base.launch.view.action",
+    "type": "path",
+    "name": "base.launch.view.action"
+  },
+  {
+    "expr": "$.base.launch.view.element",
+    "type": "path",
+    "name": "base.launch.view.element"
+  },
+  {
+    "expr": "$.base.launch.view.path[0].module",
+    "type": "path",
+    "name": "base.launch.view.path0.module"
+  },
+  {
+    "expr": "$.base.launch.view.path[0].index",
+    "type": "path",
+    "name": "base.launch.view.path0.index"
+  },
+  {
+    "expr": "$.base.launch.view.name",
+    "type": "path",
+    "name": "base.launch.view.name"
+  },
+  {
+    "expr": "$.base.launch.view.element_name",
+    "type": "path",
+    "name": "base.launch.view.element_name"
+  },
+  {
+    "expr": "$.base.launch.package_name",
+    "type": "path",
+    "name": "base.launch.package_name"
+  },
+  {
+    "expr": "$.base.launch.link",
+    "type": "path",
+    "name": "base.launch.link"
+  },
+  {
+    "expr": "$.base.experiment.feature[0].name",
+    "type": "path",
+    "name": "base.experiment.feature0.name"
+  },
+  {
+    "expr": "$.base.experiment.feature[0].value",
+    "type": "path",
+    "name": "base.experiment.feature0.value"
+  },
+  {
+    "expr": "$.base.experiment.feature_name",
+    "type": "path",
+    "name": "base.experiment.feature_name"
+  },
+  {
+    "expr": "$.base.experiment.feature_value",
+    "type": "path",
+    "name": "base.experiment.feature_value"
+  },
+  {
+    "expr": "$.detail.view.url",
+    "type": "path",
+    "name": "detail.view.url"
+  },
+  {
+    "expr": "$.detail.view.action",
+    "type": "path",
+    "name": "detail.view.action"
+  },
+  {
+    "expr": "$.detail.view.element",
+    "type": "path",
+    "name": "detail.view.element"
+  },
+  {
+    "expr": "$.detail.view.path[0].module",
+    "type": "path",
+    "name": "detail.view.path0.module"
+  },
+  {
+    "expr": "$.detail.view.path[0].module_name",
+    "type": "path",
+    "name": "detail.view.path0.module_name"
+  },
+  {
+    "expr": "$.detail.view.path[1].module_name",
+    "type": "path",
+    "name": "detail.view.path1.module_name"
+  },
+  {
+    "expr": "$.detail.view.path[2].module_name",
+    "type": "path",
+    "name": "detail.view.path2.module_name"
+  },
+  {
+    "expr": "$.detail.view.path[0].index",
+    "type": "path",
+    "name": "detail.view.path0.index"
+  },
+  {
+    "expr": "$.detail.view.path[0].is_ad",
+    "type": "path",
+    "name": "detail.view.path0.is_ad"
+  },
+  {
+    "expr": "$.detail.view.path[1].module",
+    "type": "path",
+    "name": "detail.view.path1.module"
+  },
+  {
+    "expr": "$.detail.view.path[1].index",
+    "type": "path",
+    "name": "detail.view.path1.index"
+  },
+  {
+    "expr": "$.detail.view.path[1].is_ad",
+    "type": "path",
+    "name": "detail.view.path1.is_ad"
+  },
+  {
+    "expr": "$.detail.view.path[2].module",
+    "type": "path",
+    "name": "detail.view.path2.module"
+  },
+  {
+    "expr": "$.detail.view.name",
+    "type": "path",
+    "name": "detail.view.name"
+  },
+  {
+    "expr": "$.detail.view.element_name",
+    "type": "path",
+    "name": "detail.view.element_name"
+  },
+  {
+    "expr": "$.detail.view.is_intent",
+    "type": "path",
+    "name": "detail.view.is_intent"
+  },
+  {
+    "expr": "$.detail.last_event.action",
+    "type": "path",
+    "name": "detail.last_event.action"
+  },
+  {
+    "expr": "$.detail.last_event.element",
+    "type": "path",
+    "name": "detail.last_event.element"
+  },
+  {
+    "expr": "$.detail.last_event.element_name",
+    "type": "path",
+    "name": "detail.last_event.element_name"
+  },
+  {
+    "expr": "$.detail.last_event.path[0].module",
+    "type": "path",
+    "name": "detail.last_event.path0.module"
+  },
+  {
+    "expr": "$.detail.last_event.path[0].module_name",
+    "type": "path",
+    "name": "detail.last_event.path0.module_name"
+  },
+  {
+    "expr": "$.detail.last_event.path[0].is_ad",
+    "type": "path",
+    "name": "detail.last_event.path0.is_ad"
+  },
+  {
+    "expr": "$.detail.last_event.name",
+    "type": "path",
+    "name": "detail.last_event.name"
+  },
+  {
+    "expr": "$.detail.last_event.is_intent",
+    "type": "path",
+    "name": "detail.last_event.is_intent"
+  },
+  {
+    "expr": "$.detail.referrer_event.action",
+    "type": "path",
+    "name": "detail.referrer_event.action"
+  },
+  {
+    "expr": "$.detail.referrer_event.element",
+    "type": "path",
+    "name": "detail.referrer_event.element"
+  },
+  {
+    "expr": "$.detail.referrer_event.element_name",
+    "type": "path",
+    "name": "detail.referrer_event.element_name"
+  },
+  {
+    "expr": "$.detail.referrer_event.path[0].module",
+    "type": "path",
+    "name": "detail.referrer_event.path0.module"
+  },
+  {
+    "expr": "$.detail.referrer_event.path[0].module_name",
+    "type": "path",
+    "name": "detail.referrer_event.path0.module_name"
+  },
+  {
+    "expr": "$.detail.referrer_event.path[0].is_ad",
+    "type": "path",
+    "name": "detail.referrer_event.path0.is_ad"
+  },
+  {
+    "expr": "$.detail.referrer_event.name",
+    "type": "path",
+    "name": "detail.referrer_event.name"
+  },
+  {
+    "expr": "$.detail.referrer_event.is_intent",
+    "type": "path",
+    "name": "detail.referrer_event.is_intent"
+  },
+  {
+    "expr": "$.extra.device.os_str",
+    "type": "path",
+    "name": "extra.device.os_str"
+  },
+  {
+    "expr": "$.extra.device.os_type",
+    "type": "path",
+    "name": "extra.device.os_type"
+  },
+  {
+    "expr": "$.extra.device.os_version",
+    "type": "path",
+    "name": "extra.device.os_version"
+  },
+  {
+    "expr": "$.extra.device.brand",
+    "type": "path",
+    "name": "extra.device.brand"
+  },
+  {
+    "expr": "$.extra.device.screen",
+    "type": "path",
+    "name": "extra.device.screen"
+  },
+  {
+    "expr": "$.extra.device.model",
+    "type": "path",
+    "name": "extra.device.model"
+  },
+  {
+    "expr": "$.extra.account.type",
+    "type": "path",
+    "name": "extra.account.type"
+  },
+  {
+    "expr": "$.extra.content.id",
+    "type": "path",
+    "name": "extra.content.id"
+  },
+  {
+    "expr": "$.extra.content.type",
+    "type": "path",
+    "name": "extra.content.type"
+  },
+  {
+    "expr": "$.extra.content.parent_token",
+    "type": "path",
+    "name": "extra.content.parent_token"
+  },
+  {
+    "expr": "$.extra.content.token",
+    "type": "path",
+    "name": "extra.content.token"
+  },
+  {
+    "expr": "$.extra.content.is_ad",
+    "type": "path",
+    "name": "extra.content.is_ad"
+  },
+  {
+    "expr": "$.extra.search.raw_query",
+    "type": "path",
+    "name": "extra.search.raw_query"
+  },
+  {
+    "expr": "$.extra.search.restrict_type",
+    "type": "path",
+    "name": "extra.search.restrict_type"
+  },
+  {
+    "expr": "$.extra.status.type",
+    "type": "path",
+    "name": "extra.status.type"
+  },
+  {
+    "expr": "$.extra.status.result",
+    "type": "path",
+    "name": "extra.status.result"
+  },
+  {
+    "expr": "$.extra.status.event.action",
+    "type": "path",
+    "name": "extra.status.event.action"
+  },
+  {
+    "expr": "$.extra.status.event.element_name",
+    "type": "path",
+    "name": "extra.status.event.element_name"
+  },
+  {
+    "expr": "$.extra.status.event.name",
+    "type": "path",
+    "name": "extra.status.event.name"
+  },
+  {
+    "expr": "$.extra.status.event.element",
+    "type": "path",
+    "name": "extra.status.event.element"
+  },
+  {
+    "expr": "$.extra.status.event.path[0].module",
+    "type": "path",
+    "name": "extra.status.event.path0.module"
+  },
+  {
+    "expr": "$.extra.status.error_msg",
+    "type": "path",
+    "name": "extra.status.error_msg"
+  },
+  {
+    "expr": "$.extra.module[0].list.type",
+    "type": "path",
+    "name": "extra.module0.list.type"
+  },
+  {
+    "expr": "$.extra.module[1].list.type",
+    "type": "path",
+    "name": "extra.module1.list.type"
+  },
+  {
+    "expr": "$.extra.module[0].list.card.content[0].type",
+    "type": "path",
+    "name": "extra.module0.list.card.content0.type"
+  },
+  {
+    "expr": "$.extra.module[0].card.content[0].ad_info.ad_id",
+    "type": "path",
+    "name": "extra.module0.card.content0.ad_info.ad_id"
+  },
+  {
+    "expr": "$.extra.module[0].card.content[0].ad_info.ad_zone_id",
+    "type": "path",
+    "name": "extra.module0.card.content0.ad_info.ad_zone_id"
+  },
+  {
+    "expr": "$.extra.module[0].card.content[0].id",
+    "type": "path",
+    "name": "extra.module0.card.content0.id"
+  },
+  {
+    "expr": "$.extra.module[0].card.content[0].type",
+    "type": "path",
+    "name": "extra.module0.card.content0.type"
+  },
+  {
+    "expr": "$.extra.module[0].card.card_type",
+    "type": "path",
+    "name": "extra.module0.card.card_type"
+  },
+  {
+    "expr": "$.extra.module[0].card.feed_source.actor_type",
+    "type": "path",
+    "name": "extra.module0.card.feed_source.actor_type"
+  },
+  {
+    "expr": "$.extra.module[0].card.feed_source.action_type",
+    "type": "path",
+    "name": "extra.module0.card.feed_source.action_type"
+  },
+  {
+    "expr": "$.extra.module[1].card.content[0].id",
+    "type": "path",
+    "name": "extra.module1.card.content0.id"
+  },
+  {
+    "expr": "$.extra.module[1].card.content[0].type",
+    "type": "path",
+    "name": "extra.module1.card.content0.type"
+  },
+  {
+    "expr": "$.extra.notification.id",
+    "type": "path",
+    "name": "extra.notification.id"
+  },
+  {
+    "expr": "$.extra.notification.action",
+    "type": "path",
+    "name": "extra.notification.action"
+  },
+  {
+    "expr": "$.extra.payment.type",
+    "type": "path",
+    "name": "extra.payment.type"
+  },
+  {
+    "expr": "$.extra.payment.currency_type",
+    "type": "path",
+    "name": "extra.payment.currency_type"
+  },
+  {
+    "expr": "$.extra.share.type",
+    "type": "path",
+    "name": "extra.share.type"
+  },
+  {
+    "expr": "$.extra.share.package_name",
+    "type": "path",
+    "name": "extra.share.package_name"
+  },
+  {
+    "expr": "$.extra.vertical.type",
+    "type": "path",
+    "name": "extra.vertical.type"
+  },
+  {
+    "expr": "$.extra.vertical.referrer_type",
+    "type": "path",
+    "name": "extra.vertical.referrer_type"
+  },
+  {
+    "expr": "$.extra.vertical.referrer_host",
+    "type": "path",
+    "name": "extra.vertical.referrer_host"
+  },
+  {
+    "expr": "$.extra.report.id",
+    "type": "path",
+    "name": "extra.report.id"
+  },
+  {
+    "expr": "$.extra.utm.medium",
+    "type": "path",
+    "name": "extra.utm.medium"
+  },
+  {
+    "expr": "$.extra.utm.source",
+    "type": "path",
+    "name": "extra.utm.source"
+  },
+  {
+    "expr": "$.extra.utm.campaign",
+    "type": "path",
+    "name": "extra.utm.campaign"
+  },
+  {
+    "expr": "$.extra.utm.content",
+    "type": "path",
+    "name": "extra.utm.content"
+  },
+  {
+    "expr": "$.extra.utm.term",
+    "type": "path",
+    "name": "extra.utm.term"
+  },
+  {
+    "expr": "$.extra.utm.division",
+    "type": "path",
+    "name": "extra.utm.division"
+  },
+  {
+    "expr": "$.extra.utm.raw_term",
+    "type": "path",
+    "name": "extra.utm.raw_term"
+  },
+  {
+    "expr": "$.extra.attached_info.feed_attached_info.feed_type",
+    "type": "path",
+    "name": "extra.attached_info.feed_attached_info.feed_type"
+  },
+  {
+    "expr": "$.extra.attached_info.feed_attached_info.sources[0].source_type",
+    "type": "path",
+    "name": "extra.attached_info.feed_attached_info.sources0.source_type"
+  },
+  {
+    "expr": "$.extra.message.type",
+    "type": "path",
+    "name": "extra.message.type"
+  }
+]

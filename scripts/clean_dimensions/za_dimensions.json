@@ -1,0 +1,1563 @@
+[
+  {
+    "id": 1,
+    "name": "日志版本",
+    "propertyName": "log_version",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-15 16:02:05",
+    "updateTime": "2017-04-11 16:33:08"
+  },
+  {
+    "id": 2,
+    "name": "日志类型",
+    "propertyName": "log_type",
+    "roleType": "normal",
+    "comment": "日志类型: Event, PageShow, CardShow, Ping, Backend and so on",
+    "createTime": "2016-12-15 16:03:14",
+    "updateTime": "2016-12-15 16:03:14"
+  },
+  {
+    "id": 3,
+    "name": "平台",
+    "propertyName": "base.client.platform",
+    "roleType": "normal",
+    "comment": "平台: DesktopWeb, TabletWeb, MobileWeb, AndroidPhone, AndroidPad, iPhone, iPad",
+    "createTime": "2016-12-15 16:04:57",
+    "updateTime": "2016-12-15 16:04:57"
+  },
+  {
+    "id": 4,
+    "name": "动作",
+    "propertyName": "detail.view.action",
+    "roleType": "normal",
+    "comment": "动作: Click, Hover, Select, Search, Expand, Ok, NextPage and so on",
+    "createTime": "2016-12-15 16:06:16",
+    "updateTime": "2016-12-15 16:06:16"
+  },
+  {
+    "id": 40,
+    "name": "是否为每日新终端",
+    "propertyName": "base.id.is_client_id_day_new",
+    "roleType": "normal",
+    "comment": "是否为每日新终端",
+    "createTime": "2016-12-20 21:42:16",
+    "updateTime": "2017-03-14 19:57:31"
+  },
+  {
+    "id": 41,
+    "name": "是否为每日新用户（弃用）",
+    "propertyName": "base.id.is_user_id_day_new",
+    "roleType": "normal",
+    "comment": "base.id.is_user_id_day_new",
+    "createTime": "2016-12-20 21:42:59",
+    "updateTime": "2017-03-14 19:57:45"
+  },
+  {
+    "id": 42,
+    "name": "是否为登录用户",
+    "propertyName": "base.id.is_user_logged_in",
+    "roleType": "normal",
+    "comment": "base.id.is_user_logged_in",
+    "createTime": "2016-12-20 21:43:29",
+    "updateTime": "2017-03-14 19:58:14"
+  },
+  {
+    "id": 63,
+    "name": "启动行为",
+    "propertyName": "base.launch.view.action",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 64,
+    "name": "元素",
+    "propertyName": "detail.view.element",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-03-14 23:47:28"
+  },
+  {
+    "id": 65,
+    "name": "实验 ID",
+    "propertyName": "base.id.experiment_id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 66,
+    "name": "产品",
+    "propertyName": "base.client.product",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 67,
+    "name": "渠道",
+    "propertyName": "base.client.source",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 68,
+    "name": "版本名",
+    "propertyName": "base.client.version_name",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 69,
+    "name": "版本号",
+    "propertyName": "base.client.version_code",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 70,
+    "name": "后端服务",
+    "propertyName": "base.client.service",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 71,
+    "name": "网络类型",
+    "propertyName": "base.network.type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 72,
+    "name": "手机网络类型",
+    "propertyName": "base.network.mobile_network_type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 73,
+    "name": "运营商",
+    "propertyName": "base.network.isp",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 74,
+    "name": "启动来源",
+    "propertyName": "base.launch.source",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 75,
+    "name": "模块名",
+    "propertyName": "detail.view.path.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-03-14 19:37:06"
+  },
+  {
+    "id": 76,
+    "name": "错误信息",
+    "propertyName": "extra.za_error_info.error_msg",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-03-15 01:18:58"
+  },
+  {
+    "id": 77,
+    "name": "错误类型",
+    "propertyName": "extra.za_error_info.error_type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-03-15 01:19:04"
+  },
+  {
+    "id": 78,
+    "name": "设备名",
+    "propertyName": "base.client.normalized_user_agent.device_family",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-04-05 20:57:51"
+  },
+  {
+    "id": 79,
+    "name": "浏览器",
+    "propertyName": "base.client.normalized_user_agent.agent_family",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-04-05 20:58:41"
+  },
+  {
+    "id": 80,
+    "name": "OsMajor",
+    "propertyName": "base.client.normalized_user_agent.os_major",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 81,
+    "name": "省份",
+    "propertyName": "base.network.province",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 82,
+    "name": "城市",
+    "propertyName": "base.network.city",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 83,
+    "name": "国家",
+    "propertyName": "base.network.country",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 84,
+    "name": "OsFamily",
+    "propertyName": "base.client.normalized_user_agent.os_family",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2016-12-22 15:57:47"
+  },
+  {
+    "id": 85,
+    "name": "UserAgent 字符串",
+    "propertyName": "base.client.user_agent",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-03-15 01:19:20"
+  },
+  {
+    "id": 86,
+    "name": "是否为每小时新终端",
+    "propertyName": "base.id.is_client_id_hour_new",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-03-15 01:19:45"
+  },
+  {
+    "id": 87,
+    "name": "是否为每小时新用户（弃用）",
+    "propertyName": "base.id.is_user_id_hour_new",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-03-15 01:19:53"
+  },
+  {
+    "id": 88,
+    "name": "搜索字符串",
+    "propertyName": "extra.search.query",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-04-05 20:59:15"
+  },
+  {
+    "id": 89,
+    "name": "搜索字符串（raw）",
+    "propertyName": "extra.search.raw_query",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:47",
+    "updateTime": "2017-04-05 20:59:27"
+  },
+  {
+    "id": 90,
+    "name": "content_token",
+    "propertyName": "extra.content.token",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 91,
+    "name": "content的member_hash_id",
+    "propertyName": "extra.content.member_hash_id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 92,
+    "name": "content的author_member_hash_id",
+    "propertyName": "extra.content.author_member_hash_id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 93,
+    "name": "搜索 restrict 类型",
+    "propertyName": "extra.search.restrict_type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:49:29"
+  },
+  {
+    "id": 94,
+    "name": "notification的id",
+    "propertyName": "extra.notification.id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 95,
+    "name": "notification的action",
+    "propertyName": "extra.notification.action",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 96,
+    "name": "支付类型",
+    "propertyName": "extra.payment.type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 97,
+    "name": "支付id",
+    "propertyName": "extra.payment.id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 98,
+    "name": "分享的类型",
+    "propertyName": "extra.share.type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 99,
+    "name": "share的package名",
+    "propertyName": "extra.share.package_name",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 100,
+    "name": "第 1 组实验名",
+    "propertyName": "base.experiment.feature0.name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-15 01:20:30"
+  },
+  {
+    "id": 101,
+    "name": "第 1 组实验值",
+    "propertyName": "base.experiment.feature0.value",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-15 01:21:08"
+  },
+  {
+    "id": 102,
+    "name": "第 2 组实验名",
+    "propertyName": "base.experiment.feature1.name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-15 01:21:03"
+  },
+  {
+    "id": 103,
+    "name": "第 2 组实验值",
+    "propertyName": "base.experiment.feature1.value",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-15 01:21:13"
+  },
+  {
+    "id": 104,
+    "name": "当前页面类型",
+    "propertyName": "extra.vertical.type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-04-11 14:53:39"
+  },
+  {
+    "id": 105,
+    "name": "上一页面类型",
+    "propertyName": "extra.vertical.referrer_type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-04-11 14:53:44"
+  },
+  {
+    "id": 106,
+    "name": "vertical的referrer host",
+    "propertyName": "extra.vertical.referrer_host",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 107,
+    "name": "内容类型",
+    "propertyName": "extra.content.type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-15 01:21:25"
+  },
+  {
+    "id": 108,
+    "name": "内容的父 token",
+    "propertyName": "extra.content.parent_token",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-15 01:21:35"
+  },
+  {
+    "id": 109,
+    "name": "在第 2 级模块中的位置",
+    "propertyName": "detail.view.path0.index",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:45:50"
+  },
+  {
+    "id": 110,
+    "name": "在第 3 级模块中的位置",
+    "propertyName": "detail.view.path1.index",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:46:04"
+  },
+  {
+    "id": 111,
+    "name": "在第 4 级模块中的位置",
+    "propertyName": "detail.view.path2.index",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:45:44"
+  },
+  {
+    "id": 112,
+    "name": "模块",
+    "propertyName": "detail.view.path0.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:47:41"
+  },
+  {
+    "id": 113,
+    "name": "第 2 级模块",
+    "propertyName": "detail.view.path1.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:47:51"
+  },
+  {
+    "id": 114,
+    "name": "第 3 级模块",
+    "propertyName": "detail.view.path2.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:47:57"
+  },
+  {
+    "id": 115,
+    "name": "用户类型",
+    "propertyName": "base.id.user_type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 116,
+    "name": "设备是否已经 root",
+    "propertyName": "extra.device.is_root",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-14 23:47:01"
+  },
+  {
+    "id": 117,
+    "name": "设备品牌",
+    "propertyName": "extra.device.brand",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 118,
+    "name": "设备机型",
+    "propertyName": "extra.device.model",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 119,
+    "name": "feedSource的动作类型",
+    "propertyName": "extra.module0.card.feed_source.action_type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 120,
+    "name": "feedSource的类型",
+    "propertyName": "extra.module0.card.feed_source.actor_type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 121,
+    "name": "举报ID",
+    "propertyName": "extra.report.id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 122,
+    "name": "当前页面 URL",
+    "propertyName": "detail.view.url",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-20 16:41:04"
+  },
+  {
+    "id": 123,
+    "name": "extra.module1.list.type",
+    "propertyName": "extra.module1.list.type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 124,
+    "name": "extra.content.id",
+    "propertyName": "extra.content.id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 125,
+    "name": "extra.utm.campaign",
+    "propertyName": "extra.utm.campaign",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 126,
+    "name": "extra.utm.content",
+    "propertyName": "extra.utm.content",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 127,
+    "name": "extra.utm.medium",
+    "propertyName": "extra.utm.medium",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 128,
+    "name": "extra.utm.source",
+    "propertyName": "extra.utm.source",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 129,
+    "name": "extra.utm.term",
+    "propertyName": "extra.utm.term",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 130,
+    "name": "detail.view.is_intent",
+    "propertyName": "detail.view.is_intent",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 131,
+    "name": "extra.content.is_ad",
+    "propertyName": "extra.content.is_ad",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 132,
+    "name": "base.id.is_device_id_day_new",
+    "propertyName": "base.id.is_device_id_day_new",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 133,
+    "name": "base.id.is_device_id_hour_new",
+    "propertyName": "base.id.is_device_id_hour_new",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 134,
+    "name": "元素名",
+    "propertyName": "detail.view.element_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2017-03-15 01:30:56"
+  },
+  {
+    "id": 135,
+    "name": "base.launch.package_name",
+    "propertyName": "base.launch.package_name",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 136,
+    "name": "base.launch.view.element",
+    "propertyName": "base.launch.view.element",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 137,
+    "name": "base.launch.view.path0.index",
+    "propertyName": "base.launch.view.path0.index",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 138,
+    "name": "base.launch.view.path0.module",
+    "propertyName": "base.launch.view.path0.module",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 139,
+    "name": "detail.browser_referer",
+    "propertyName": "detail.browser_referer",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 140,
+    "name": "extra.account.email",
+    "propertyName": "extra.account.email",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 141,
+    "name": "extra.account.os_version",
+    "propertyName": "extra.account.os_version",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 142,
+    "name": "extra.account.type",
+    "propertyName": "extra.account.type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 143,
+    "name": "extra.content.author_id",
+    "propertyName": "extra.content.author_id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 144,
+    "name": "extra.content.author_token",
+    "propertyName": "extra.content.author_token",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 145,
+    "name": "extra.content.parent_id",
+    "propertyName": "extra.content.parent_id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 146,
+    "name": "extra.content.snippet",
+    "propertyName": "extra.content.snippet",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 147,
+    "name": "extra.device.os_str",
+    "propertyName": "extra.device.os_str",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 148,
+    "name": "extra.device.os_type",
+    "propertyName": "extra.device.os_type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 149,
+    "name": "extra.device.os_version",
+    "propertyName": "extra.device.os_version",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 150,
+    "name": "extra.device.screen",
+    "propertyName": "extra.device.screen",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 151,
+    "name": "extra.device.sdk_level",
+    "propertyName": "extra.device.sdk_level",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 152,
+    "name": "extra.module0.card.card_type",
+    "propertyName": "extra.module0.card.card_type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 153,
+    "name": "extra.module0.list.type",
+    "propertyName": "extra.module0.list.type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 154,
+    "name": "extra.status.type",
+    "propertyName": "extra.status.type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 155,
+    "name": "base.launch.link",
+    "propertyName": "base.launch.link",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 156,
+    "name": "detail.view.path0.is_ad",
+    "propertyName": "detail.view.path0.is_ad",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 157,
+    "name": "detail.view.path1.is_ad",
+    "propertyName": "detail.view.path1.is_ad",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 158,
+    "name": "extra.status.event.url",
+    "propertyName": "extra.status.event.url",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 159,
+    "name": "extra.status.event.element_name",
+    "propertyName": "extra.status.event.element_name",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 160,
+    "name": "extra.status.event.name",
+    "propertyName": "extra.status.event.name",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 161,
+    "name": "extra.status.event.element",
+    "propertyName": "extra.status.event.element",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 162,
+    "name": "extra.status.event.path0.module",
+    "propertyName": "extra.status.event.path0.module",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 163,
+    "name": "extra.status.event.path0.index",
+    "propertyName": "extra.status.event.path0.index",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 164,
+    "name": "extra.status.event.path0.is_ad",
+    "propertyName": "extra.status.event.path0.is_ad",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 165,
+    "name": "extra.payment.currency_type",
+    "propertyName": "extra.payment.currency_type",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 166,
+    "name": "detail.view.name",
+    "propertyName": "detail.view.name",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 167,
+    "name": "content0.ad_info.ad_id",
+    "propertyName": "extra.module0.card.content0.ad_info.ad_id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 168,
+    "name": "content0.ad_info.ad_zone_id",
+    "propertyName": "extra.module0.card.content0.ad_info.ad_zone_id",
+    "roleType": "normal",
+    "createTime": "2016-12-22 15:57:48",
+    "updateTime": "2016-12-22 15:57:48"
+  },
+  {
+    "id": 169,
+    "name": "extra.status.result",
+    "propertyName": "extra.status.result",
+    "roleType": "normal",
+    "comment": "extra.status.result",
+    "createTime": "2017-01-10 14:22:44",
+    "updateTime": "2017-01-10 14:22:44"
+  },
+  {
+    "id": 170,
+    "name": "extra.status.error_msg",
+    "propertyName": "extra.status.error_msg",
+    "roleType": "normal",
+    "comment": "extra.status.error_msg",
+    "createTime": "2017-01-10 14:23:16",
+    "updateTime": "2017-01-10 14:23:16"
+  },
+  {
+    "id": 171,
+    "name": "是否为每日新用户",
+    "propertyName": "base.id.is_member_hash_id_day_new",
+    "roleType": "normal",
+    "comment": "base.id.is_member_hash_id_day_new",
+    "createTime": "2017-01-10 16:18:02",
+    "updateTime": "2017-03-15 01:29:37"
+  },
+  {
+    "id": 172,
+    "name": "是否为每小时新用户",
+    "propertyName": "base.id.is_member_hash_id_hour_new",
+    "roleType": "normal",
+    "comment": "base.id.is_member_hash_id_hour_new",
+    "createTime": "2017-01-10 16:18:17",
+    "updateTime": "2017-03-15 01:29:56"
+  },
+  {
+    "id": 317,
+    "name": "链接 URL",
+    "propertyName": "extra.link.url",
+    "roleType": "normal",
+    "comment": "extra.link.url",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-03-15 01:17:47"
+  },
+  {
+    "id": 318,
+    "name": "extra.status.event.action",
+    "propertyName": "extra.status.event.action",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 319,
+    "name": "base.client.ad_source.source",
+    "propertyName": "base.client.ad_source.source",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 320,
+    "name": "base.client.ad_source.pub_id",
+    "propertyName": "base.client.ad_source.pub_id",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 321,
+    "name": "base.client.ad_source.sub_pub_id",
+    "propertyName": "base.client.ad_source.sub_pub_id",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 322,
+    "name": "base.client.ad_source.first_lag",
+    "propertyName": "base.client.ad_source.first_lag",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 323,
+    "name": "base.client.ad_source.last_lag",
+    "propertyName": "base.client.ad_source.last_lag",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 324,
+    "name": "referrer_event.action",
+    "propertyName": "detail.referrer_event.action",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 325,
+    "name": "referrer_event.element",
+    "propertyName": "detail.referrer_event.element",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 326,
+    "name": "referrer_event.element_name",
+    "propertyName": "detail.referrer_event.element_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 327,
+    "name": "referrer_event.path0.module",
+    "propertyName": "detail.referrer_event.path0.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 328,
+    "name": "referrer_event.path0.module_name",
+    "propertyName": "detail.referrer_event.path0.module_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 329,
+    "name": "referrer_event.path1.module_name",
+    "propertyName": "detail.referrer_event.path1.module_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 330,
+    "name": "referrer_event.path2.module_name",
+    "propertyName": "detail.referrer_event.path2.module_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 331,
+    "name": "referrer_event.path0.index",
+    "propertyName": "detail.referrer_event.path0.index",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 332,
+    "name": "referrer_event.path0.is_ad",
+    "propertyName": "detail.referrer_event.path0.is_ad",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 333,
+    "name": "referrer_event.path1.module",
+    "propertyName": "detail.referrer_event.path1.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 334,
+    "name": "referrer_event.path1.index",
+    "propertyName": "detail.referrer_event.path1.index",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 335,
+    "name": "referrer_event.path1.is_ad",
+    "propertyName": "detail.referrer_event.path1.is_ad",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 336,
+    "name": "referrer_event.path2.module",
+    "propertyName": "detail.referrer_event.path2.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 337,
+    "name": "referrer_event.path2.index",
+    "propertyName": "detail.referrer_event.path2.index",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 338,
+    "name": "referrer_event.name",
+    "propertyName": "detail.referrer_event.name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 339,
+    "name": "referrer_event.url",
+    "propertyName": "detail.referrer_event.url",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 340,
+    "name": "referrer_event.is_intent",
+    "propertyName": "detail.referrer_event.is_intent",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:04:47",
+    "updateTime": "2017-01-16 17:04:47"
+  },
+  {
+    "id": 341,
+    "name": "日期",
+    "propertyName": "base.time.date",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-01-16 17:16:24",
+    "updateTime": "2017-03-14 20:00:36"
+  },
+  {
+    "id": 607,
+    "name": "base.client.ad_source.type ",
+    "propertyName": "base.client.ad_source.type ",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-02-07 11:17:10",
+    "updateTime": "2017-02-07 11:17:10"
+  },
+  {
+    "id": 608,
+    "name": "实验名",
+    "propertyName": "base.experiment.feature_name",
+    "roleType": "normal",
+    "comment": "base.experiment.feature_name",
+    "createTime": "2017-02-07 11:17:10",
+    "updateTime": "2017-03-15 01:20:42"
+  },
+  {
+    "id": 609,
+    "name": "实验值",
+    "propertyName": "base.experiment.feature_value",
+    "roleType": "normal",
+    "comment": "base.experiment.feature_value",
+    "createTime": "2017-02-07 11:17:10",
+    "updateTime": "2017-03-15 01:16:13"
+  },
+  {
+    "id": 610,
+    "name": "第 2 级模块内容 ID",
+    "propertyName": "extra.module1.card.content0.id",
+    "roleType": "normal",
+    "comment": "extra.module1.card.content0.id",
+    "createTime": "2017-02-08 15:09:26",
+    "updateTime": "2017-03-15 01:16:40"
+  },
+  {
+    "id": 611,
+    "name": "第 2 级模块内容 Token",
+    "propertyName": "extra.module1.card.content0.token",
+    "roleType": "normal",
+    "comment": "extra.module1.card.content0.token",
+    "createTime": "2017-02-08 15:09:26",
+    "updateTime": "2017-03-15 01:16:51"
+  },
+  {
+    "id": 612,
+    "name": "第 2 级模块内容父 Token",
+    "propertyName": "extra.module1.card.content0.parent_token",
+    "roleType": "normal",
+    "comment": "extra.module1.card.content0.parent_token",
+    "createTime": "2017-02-08 15:09:26",
+    "updateTime": "2017-03-15 01:16:59"
+  },
+  {
+    "id": 613,
+    "name": "第 3 级模块内容 ID",
+    "propertyName": "extra.module2.card.content0.id",
+    "roleType": "normal",
+    "comment": "extra.module2.card.content0.id",
+    "createTime": "2017-02-08 15:09:26",
+    "updateTime": "2017-03-15 01:17:11"
+  },
+  {
+    "id": 614,
+    "name": "第 3 级模块内容 Token",
+    "propertyName": "extra.module2.card.content0.token",
+    "roleType": "normal",
+    "comment": "extra.module2.card.content0.token",
+    "createTime": "2017-02-08 15:09:26",
+    "updateTime": "2017-03-15 01:17:21"
+  },
+  {
+    "id": 615,
+    "name": "第 3 级模块内容父 Token",
+    "propertyName": "extra.module2.card.content0.parent_token",
+    "roleType": "normal",
+    "comment": "extra.module2.card.content0.parent_token",
+    "createTime": "2017-02-08 15:09:26",
+    "updateTime": "2017-03-15 01:17:27"
+  },
+  {
+    "id": 808,
+    "name": "用户 ID",
+    "propertyName": "base.id.member_hash_id",
+    "roleType": "normal",
+    "comment": "数据库中用户的 id，web 上登录后会有，客户端包含 Guest",
+    "createTime": "2017-03-14 22:34:00",
+    "updateTime": "2017-03-31 14:05:16"
+  },
+  {
+    "id": 809,
+    "name": "设备 ID",
+    "propertyName": "base.id.device_id",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-03-15 01:14:46",
+    "updateTime": "2017-03-15 01:14:46"
+  },
+  {
+    "id": 811,
+    "name": "会话 ID",
+    "propertyName": "base.id.session_id",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-03-15 01:27:09",
+    "updateTime": "2017-03-15 01:27:09"
+  },
+  {
+    "id": 812,
+    "name": "终端 ID",
+    "propertyName": "base.id.client_id",
+    "roleType": "normal",
+    "comment": "唯一标记终端的 id",
+    "createTime": "2017-03-15 01:27:58",
+    "updateTime": "2017-03-31 14:04:37"
+  },
+  {
+    "id": 875,
+    "name": "source",
+    "propertyName": "extra.attached_info.feed_attached_info.feed_type",
+    "roleType": "normal",
+    "comment": "extra.attached_info.feed_attached_info.feed_type",
+    "createTime": "2017-03-29 18:23:19",
+    "updateTime": "2017-03-31 18:29:41"
+  },
+  {
+    "id": 876,
+    "name": "source_type",
+    "propertyName": "extra.attached_info.feed_attached_info.sources0.source_type",
+    "roleType": "normal",
+    "comment": "extra.attached_info.feed_attached_info.sources[0].source_type",
+    "createTime": "2017-03-29 18:23:35",
+    "updateTime": "2017-03-31 18:30:13"
+  },
+  {
+    "id": 898,
+    "name": "Update Source",
+    "propertyName": "base.client.update_source",
+    "roleType": "normal",
+    "comment": "更新的渠道来源",
+    "createTime": "2017-04-01 11:44:03",
+    "updateTime": "2017-04-01 11:44:03"
+  },
+  {
+    "id": 917,
+    "name": "is_app_view",
+    "propertyName": "base.client.is_app_view",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-07 11:15:32",
+    "updateTime": "2017-04-07 11:15:32"
+  },
+  {
+    "id": 948,
+    "name": "渠道付费类型",
+    "propertyName": "base.client.charge_type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-07 19:02:38",
+    "updateTime": "2017-04-07 19:02:50"
+  },
+  {
+    "id": 954,
+    "name": "base.client.ad_source.type",
+    "propertyName": "base.client.ad_source.type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:06:15",
+    "updateTime": "2017-04-11 17:06:15"
+  },
+  {
+    "id": 955,
+    "name": "base.client.first_source",
+    "propertyName": "base.client.first_source",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:06:28",
+    "updateTime": "2017-04-11 17:06:28"
+  },
+  {
+    "id": 956,
+    "name": "base.launch.view.element_name",
+    "propertyName": "base.launch.view.element_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:06:41",
+    "updateTime": "2017-04-11 17:06:41"
+  },
+  {
+    "id": 957,
+    "name": "base.launch.view.name",
+    "propertyName": "base.launch.view.name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:06:52",
+    "updateTime": "2017-04-11 17:06:52"
+  },
+  {
+    "id": 958,
+    "name": "detail.last_event.action",
+    "propertyName": "detail.last_event.action",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:07:02",
+    "updateTime": "2017-04-11 17:07:02"
+  },
+  {
+    "id": 959,
+    "name": "detail.last_event.element",
+    "propertyName": "detail.last_event.element",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:07:12",
+    "updateTime": "2017-04-11 17:07:12"
+  },
+  {
+    "id": 960,
+    "name": "detail.last_event.element_name",
+    "propertyName": "detail.last_event.element_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:07:24",
+    "updateTime": "2017-04-11 17:07:24"
+  },
+  {
+    "id": 961,
+    "name": "detail.last_event.is_intent",
+    "propertyName": "detail.last_event.is_intent",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:07:37",
+    "updateTime": "2017-04-11 17:07:37"
+  },
+  {
+    "id": 962,
+    "name": "detail.last_event.name",
+    "propertyName": "detail.last_event.name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:07:47",
+    "updateTime": "2017-04-11 17:07:47"
+  },
+  {
+    "id": 963,
+    "name": "detail.last_event.path0.is_ad",
+    "propertyName": "detail.last_event.path0.is_ad",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:07:58",
+    "updateTime": "2017-04-11 17:07:58"
+  },
+  {
+    "id": 964,
+    "name": "detail.last_event.path0.module",
+    "propertyName": "detail.last_event.path0.module",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:08:09",
+    "updateTime": "2017-04-11 17:08:09"
+  },
+  {
+    "id": 965,
+    "name": "detail.last_event.path0.module_name",
+    "propertyName": "detail.last_event.path0.module_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:08:20",
+    "updateTime": "2017-04-11 17:08:20"
+  },
+  {
+    "id": 966,
+    "name": "detail.view.path0.module_name",
+    "propertyName": "detail.view.path0.module_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:08:36",
+    "updateTime": "2017-04-11 17:08:36"
+  },
+  {
+    "id": 967,
+    "name": "detail.view.path1.module_name",
+    "propertyName": "detail.view.path1.module_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:08:46",
+    "updateTime": "2017-04-11 17:08:46"
+  },
+  {
+    "id": 968,
+    "name": "detail.view.path2.module_name",
+    "propertyName": "detail.view.path2.module_name",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:09:00",
+    "updateTime": "2017-04-11 17:09:00"
+  },
+  {
+    "id": 969,
+    "name": "extra.message.type",
+    "propertyName": "extra.message.type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:09:11",
+    "updateTime": "2017-04-11 17:09:11"
+  },
+  {
+    "id": 970,
+    "name": "extra.module0.card.content0.id",
+    "propertyName": "extra.module0.card.content0.id",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:09:22",
+    "updateTime": "2017-04-11 17:09:22"
+  },
+  {
+    "id": 971,
+    "name": "extra.module0.card.content0.type",
+    "propertyName": "extra.module0.card.content0.type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:09:32",
+    "updateTime": "2017-04-11 17:09:32"
+  },
+  {
+    "id": 972,
+    "name": "extra.module0.list.card.content0.type",
+    "propertyName": "extra.module0.list.card.content0.type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:09:41",
+    "updateTime": "2017-04-11 17:09:41"
+  },
+  {
+    "id": 973,
+    "name": "extra.module1.card.content0.type",
+    "propertyName": "extra.module1.card.content0.type",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:09:52",
+    "updateTime": "2017-04-11 17:09:52"
+  },
+  {
+    "id": 974,
+    "name": "extra.utm.division",
+    "propertyName": "extra.utm.division",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:10:02",
+    "updateTime": "2017-04-11 17:10:02"
+  },
+  {
+    "id": 975,
+    "name": "extra.utm.raw_term",
+    "propertyName": "extra.utm.raw_term",
+    "roleType": "normal",
+    "comment": "",
+    "createTime": "2017-04-11 17:10:12",
+    "updateTime": "2017-04-11 17:10:12"
+  }
+]
