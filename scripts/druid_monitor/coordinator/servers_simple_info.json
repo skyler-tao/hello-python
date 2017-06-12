@@ -1,0 +1,706 @@
+[
+  {
+    "host": "druid09:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2870421258829,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "za-druid02:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2871738251696,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "druid10:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2854904967768,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "druid13:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2861727759337,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "druid-storage01:8083",
+    "tier": "cold_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 18127150374783,
+    "maxSize": 34000000000000
+  },
+  {
+    "host": "za-druid06:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid06:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid06:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid14:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2868599448249,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "za-druid06:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid06:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid06:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid06:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid11:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid11:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid11:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid11:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid11:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid03:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2911651181506,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "druid11:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid11:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid01:8083",
+    "tier": "_default_tier",
+    "type": "historical",
+    "priority": 0,
+    "currSize": 504726585928,
+    "maxSize": 1300000000000
+  },
+  {
+    "host": "za-druid03:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid03:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid03:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid03:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "halo-druid01:8083",
+    "tier": "halo_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 453844176985,
+    "maxSize": 3500000000000
+  },
+  {
+    "host": "za-druid03:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid03:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid03:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid17:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2837106302273,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "halo-druid01:8085",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2849381415789,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "za-druid06:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2865463611415,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "druid03:8083",
+    "tier": "_default_tier",
+    "type": "historical",
+    "priority": 0,
+    "currSize": 77582084333,
+    "maxSize": 600000000000
+  },
+  {
+    "host": "druid16:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2894461408614,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "za-druid01:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid12:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid05:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2852606647704,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "za-druid01:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid12:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8107",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid12:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid01:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid12:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid01:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid02:8083",
+    "tier": "_default_tier",
+    "type": "historical",
+    "priority": 0,
+    "currSize": 499482679799,
+    "maxSize": 1300000000000
+  },
+  {
+    "host": "druid12:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid12:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid01:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid12:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid01:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid01:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid09:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid09:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid09:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid09:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid09:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid09:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid10:8107",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid10:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid02:8107",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid04:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2867254465303,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "za-druid05:8106",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid02:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid15:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2861514045921,
+    "maxSize": 4000000000000
+  },
+  {
+    "host": "za-druid02:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid02:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid05:8103",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid02:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid05:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid02:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid02:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid05:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid10:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid05:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid10:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid10:8102",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid10:8105",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid05:8101",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "druid10:8104",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid05:8100",
+    "tier": "_default_tier",
+    "type": "realtime",
+    "priority": 0,
+    "currSize": 0,
+    "maxSize": 0
+  },
+  {
+    "host": "za-druid01:8083",
+    "tier": "hot_data_tier",
+    "type": "historical",
+    "priority": 5,
+    "currSize": 2878537951602,
+    "maxSize": 4000000000000
+  }
+]

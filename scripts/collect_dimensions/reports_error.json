@@ -1,0 +1,89 @@
+[
+  {
+    "id": 642,
+    "creatorId": 20,
+    "name": "邀请回答框展现",
+    "queries": [
+      {
+        "queryType": "timeseries",
+        "product": 1,
+        "view": 0,
+        "metrics": [
+          1,
+          3
+        ],
+        "filter": {
+          "type": "and",
+          "filters": [
+            {
+              "type": "or",
+              "filters": [
+                {
+                  "type": "and",
+                  "filters": [
+                    null,
+                    {
+                      "type": "selector",
+                      "dimension": 3,
+                      "pattern": "DesktopWeb"
+                    },
+                    {
+                      "type": "selector",
+                      "dimension": 4,
+                      "pattern": "Invite"
+                    },
+                    {
+                      "type": "selector",
+                      "dimension": 64,
+                      "pattern": "Button"
+                    },
+                    {
+                      "type": "or",
+                      "filters": [
+                        {
+                          "type": "selector",
+                          "dimension": 104,
+                          "pattern": "Question"
+                        },
+                        {
+                          "type": "selector",
+                          "dimension": 104,
+                          "pattern": "Answer"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "selector",
+                      "dimension": 112,
+                      "pattern": "UserItem"
+                    },
+                    {
+                      "type": "selector",
+                      "dimension": 113,
+                      "pattern": "UserList"
+                    },
+                    {
+                      "type": "selector",
+                      "dimension": 114,
+                      "pattern": "InvitationFrame"
+                    },
+                    {
+                      "type": "selector",
+                      "dimension": 608,
+                      "pattern": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "force": false
+      }
+    ],
+    "width": 0,
+    "comment": "PC New Web",
+    "createTime": "2017-03-01 17:04:28",
+    "updateTime": "2017-03-19 22:24:01"
+  }
+]
