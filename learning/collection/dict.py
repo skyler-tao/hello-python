@@ -14,3 +14,12 @@ else:
     print 'Not exist Jim in name_score.'
 name_score.pop('Skyler')
 print name_score
+
+my_dict = dict()
+
+
+my_dict.update(name='chaoqiang')
+key = 'score'
+my_dict.update({key: 333})
+
+print my_dict
