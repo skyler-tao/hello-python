@@ -18,8 +18,11 @@ def main():
             dimension_size = int(elements[len(elements) - 1]) - int(elements[len(elements) - 2])
             dimension_size_result[str(dimension_name)] = int(dimension_size)
         sorted_names = sorted(dimension_size_result, key=lambda x: dimension_size_result[x])
+        total_size = sum(dimension_size_result.itervalues())
         for k in sorted_names:
-            print("{} : {}".format(k, dimension_size_result[k]))
+            print("{} : {} : percent {}".format(k, dimension_size_result[k], round((dimension_size_result[k] + 0.0) / total_size, 4)))
+
+        print ("total size is {}.".format(total_size))
 
 
 if __name__ == '__main__':
